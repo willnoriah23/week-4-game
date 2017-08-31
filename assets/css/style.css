@@ -1,0 +1,13 @@
+h2 {
+font-size: 18px;	
+}
+
+body {
+	background: #808080;
+}
+
+#crystals {
+	position: absolute;
+	right: 0px;
+	width: 300px;
+}
