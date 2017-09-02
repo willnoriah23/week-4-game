@@ -11,31 +11,69 @@
 <body>
 
 <div class="page-header">
- <h1><center>Crystal Collector!</center></h1>
+ 	<h1><center>Crystal Collector</center></h1>
 </div>
 	
-	<h2><p>You will be given a random number at the start of the game.
+	<h2><center><p>Click the crystals to build Your Score to match the Random Number. 
 	<br>
-	There are four crystals below. By clicking on a crystal you will add a specific amount of amounts of points to your total score.
 	<br>
-	You will the game by matching your total score to random number, you lose the game if your total score goes above the random number.
-	<br>
-	The value of each crystal is hidden from you until you click on it.
-	<br>
-	Each time when the game starts, the game will change the values of each crystal.
+	<p>The value of the crystals starts over each game.</p>
+</center>
 	</p></h2> 
 
-<div class="col-md-8 crystals container">
-<input type="image" img class="pink-cyrstals" src="assets/images/6d004ee4cbfa69a40f76b16ae2b082bc.jpg"  style="width:300px;height:250px;">
-<input type="image" img class="green-crystals" src="assets/images/emerald-crystal.jpg" style="width:300px;height:250px;">
-<input type="image" img class="blue-crystals" src="assets/images/O21kfC.jpg" style="width:300px;height:250px;">
-<input type="image" img class="purple-cyrstals" src="assets/images/Stocksy_txp05b96a53aaF100_Medium_1035744.jpg" style="width:300px;height:250px;">
+	
+
+
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-heading"><center>Match This Number To Win!</center>
+  </div>
+  <div class="panel-body">
+    <h3 class="panel-title"></h3>
+ 	<center>
+     <h1 class="text" id="randomnum-div"></h1>
+     </center>
+  </div>
+</div>
+</div>
+</div> 	
+
+
+<div class="container">
+	<center>
+	<img id="c1" src="assets/images/pinkcrystal.jpg"  style="width:200px;height:150px;">
+	<img id="c2" src="assets/images/greencrystal.jpg" style="width:200px;height:150px;">
+	<img id="c3" src="assets/images/bluecrystal.jpg" style="width:200px;height:150px;">
+	<img id="c4" src="assets/images/purplecrystal.jpg" style="width:200px;height:150px;">
+	</center>
+	</div>
+</div>	
+<br>
+
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-heading">
+  	<center>
+    <h3 class="panel-title">Your Score</h3>
+    </center>
+  </div>
+  <div class="panel-body">
+  	<center>
+    <div id="yourscore-div">	
+		<h1 class="text-center"></h1>
+	</center>			
+	</div>
+  </div>
 </div>
 
- <h1 class="text-right" id="random-number"></h1>
 
+</div>
+<br>
+<center>
+<div id="wins-div">Wins:</div>
+<div id="losses-div">Losses:</div>
+</center>
 
-<h1 class="text-center" id="random-number"></h1>
 
 
  <script type="text/javascript" src="assets/javascript/game.js"></script>
